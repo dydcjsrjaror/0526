@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: demo-app
-        image: k8s-demo-app:v1.0.0 # 우리가 방금 빌드한 이미지 이름!
-        imagePullPolicy: Never    # 1대 서버 내부 로컬에 있는 이미지를 바로 쓰도록 설정 (실무 팁)
+        image: dydcjsrjaror/k8s-demo-app:latest
+        imagePullPolicy: Always    # 1대 서버 내부 로컬에 있는 이미지를 바로 쓰도록 설정 (실무 팁)
         ports:
         - containerPort: 3000
         
