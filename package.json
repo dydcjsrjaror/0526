@@ -1,0 +1,12 @@
+{
+  "name": "k8s-demo-app",
+  "version": "1.0.0",
+  "description": "이직용 K8s GitOps 프로젝트 앱",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
