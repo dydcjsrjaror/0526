@@ -32,5 +32,5 @@ jobs:
         push: true
         # ★★★ 아래 '본인_도커허브_ID'를 실제 본인의 Docker Hub ID로 바꿔주세요!
         tags: |
-          jangst15@gmail.com/k8s-demo-app:latest
-          jangst15@gmail.com/k8s-demo-app:${{ github.sha }}
+          dydcjsrjaror/k8s-demo-app:latest
+          dydcjsrjaror/k8s-demo-app:${{ github.sha }}
